@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+    "MailKit": "1.10.1",
+    "Microsoft.Extensions.DependencyInjection": "1.1.0",
+    "Microsoft.NETCore.App": {
+      "version": "1.0.3",
+      "type": "platform"
+    },
+    "Microsoft.ProjectOxford.Face": "1.2.1.2",
+    "Neostore.ImageSharp": "1.0.0",
+    "NETCore.MailKit": "1.0.1",
+    "Newtonsoft.Json": "9.0.1",
+    "Steeltoe.CloudFoundry.Connector.Rabbit": "1.0.0-rc2",
+    "Steeltoe.Extensions.Configuration.CloudFoundry": "1.0.0-rc2"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dnxcore50"
+      ]
+    }
+  },
+
+  "runtimes": {
+    "win8-x64": {},
+    "ubuntu.14.04-x64": {}
+  },
+
+  "runtimeOptions": {
+    "configProperties": {
+    }
+  }
+}

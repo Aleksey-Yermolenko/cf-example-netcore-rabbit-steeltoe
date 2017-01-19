@@ -1,0 +1,10 @@
+﻿---
+applications:
+- name: avatarmaker.web
+  memory: 512M
+  command: dotnet ./AvatarMaker.Web.dll --server.urls "http://*:$PORT"
+  buildpack: https://github.com/cloudfoundry-community/asp.net5-buildpack.git
+  env:
+    ASPNETCORE_ENVIRONMENT: production
+  services:
+   - avatarmaker.rmq

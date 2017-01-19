@@ -1,0 +1,12 @@
+﻿---
+applications:
+- name: avatarmaker.emailsender
+  memory: 512M
+  buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+  command: dotnet ./AvatarMaker.EmailSender.dll
+  env:
+    ASPNETCORE_ENVIRONMENT: production
+  services:
+   - avatarmaker.rmq
+  no-route: true
+  health-check-type: none
