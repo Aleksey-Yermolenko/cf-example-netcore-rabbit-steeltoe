@@ -2,7 +2,7 @@
 
 ### Description
 
-Full description can be found in this article: __________
+Full description can be found in this article: https://www.altoros.com/blog/microservices-with-steeltoe-and-cloud-foundry-a-dotnet-app-using-microsoft-face-api/
 
 This is an example of .NET Core web application based on a microservices architecture using Cloud Foundry, Steeltoe library, RabbitMQ message broker and Microsoft Cognitive Services API.
 The app allows users to detect human faces on a photo, extract avatars from them and send by email.
